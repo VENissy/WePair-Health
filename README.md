@@ -1,5 +1,5 @@
 <h2 >WePair Health</h2>
-<h3>This portfolio includes codes samples from a Blog feature completed at WePair Health, a dynamic and intuitive platform that connects 
+<h3>This portfolio includes codes samples from a Blog feature I completed for WePair Health, a dynamic and intuitive platform that connects 
 community healthcare workers with exceptional healthcare providers, emphasizing job flexibility, pay transparency, and zero fees. WePair Health is 
 currently in its MVP stage. This respository contains SQL, .NET, and React code samples.</h3>
 
