@@ -1,20 +1,3 @@
-import React, { useState, useEffect } from "react";
-import { Formik, Form, Field, ErrorMessage } from "formik";
-import { useNavigate } from "react-router-dom";
-import debug from "wePair-debug";
-import { Breadcrumb, Card, Col, Row } from "react-bootstrap";
-import { Link } from "react-router-dom";
-import { blogSchema } from "schema/blogSchema";
-import lookUpService from "services/lookUpService";
-import * as helper from "../../helper/utils";
-import FileUpload from "components/files/FileUpload";
-import ClassicEditor from "@ckeditor/ckeditor5-build-classic";
-import { CKEditor } from "@ckeditor/ckeditor5-react";
-import blogService from "services/blogService";
-import Swal from "sweetalert2";
-import "../../components/blogs/blog.css";
-
-const _logger = debug.extend("blog");
 
 function BlogForm() {
   const [blogState] = useState({
