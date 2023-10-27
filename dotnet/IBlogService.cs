@@ -1,9 +1,4 @@
-using WePair.Models.Domain.Blogs;
-using WePair.Models;
-using WePair.Models.Requests.Blogs;
-using System.Collections.Generic;
 
-namespace WePair.Services.Interfaces
 {
     public interface IBlogService
     {
