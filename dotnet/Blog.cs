@@ -1,7 +1,3 @@
-using WePair.Models.Domain.Users;
-using System;
-
-namespace WePair.Models.Domain.Blogs
 {
     public class Blog
     {
