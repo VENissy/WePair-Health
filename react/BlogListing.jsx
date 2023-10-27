@@ -1,17 +1,3 @@
-import React, { useState, Fragment, useEffect } from "react";
-import { Col, Row, FormSelect } from "react-bootstrap";
-import BlogCard from "./BlogCard";
-import BlogCardFullWidth from "./BlogCardFullWidth";
-import lookUpService from "services/lookUpService";
-import * as helper from "../../helper/utils";
-import Pagination from "rc-pagination";
-import "rc-pagination/assets/index.css";
-import "../../components/blogs/blog.css";
-import debug from "sabio-debug";
-import blogService from "services/blogService";
-
-const _logger = debug.extend("blog");
-_logger("BlogCard");
 
 function BlogListing() {
   const [blogData, setBlogData] = useState({
