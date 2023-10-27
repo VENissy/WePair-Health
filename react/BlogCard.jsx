@@ -1,14 +1,7 @@
-import React from "react";
-import { Card, Row, Col, Image } from "react-bootstrap";
-import { useNavigate } from "react-router-dom";
-import PropTypes from "prop-types";
-import debug from "wePair-debug";
-
-const _logger = debug.extend("blog");
 
 function BlogCard(props) {
   const { aNewBlog } = props;
-  _logger("blog map", aNewBlog);
+  
 
   const navigate = useNavigate();
   const handleOnClick = () => {
