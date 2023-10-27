@@ -1,15 +1,4 @@
-using WePair.Data.Providers;
-using WePair.Services.Interfaces;
-using WePair.Models.Requests.Blogs;
-using System.Collections.Generic;
-using System.Data.SqlClient;
-using System.Data;
-using WePair.Data;
-using WePair.Models;
-using WePair.Models.Domain.Blogs;
-using WePair.Models.Domain.Users;
 
-namespace WePair.Services
 {
     public class BlogService : IBlogService
     {
