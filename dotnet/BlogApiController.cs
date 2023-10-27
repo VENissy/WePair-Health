@@ -1,17 +1,4 @@
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using WePair .Models;
-using WePair .Models.Domain.Blogs;
-using WePair .Models.Requests.Blogs;
-using WePair .Services;
-using WePair .Services.Interfaces;
-using WePair .Web.Controllers;
-using WePair .Web.Models.Responses;
-using System;
-using System.Collections.Generic;
 
-namespace WePair .Web.Api.Controllers
 {
 
     [Route("api/blogs")]
